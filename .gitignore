@@ -91,3 +91,5 @@ typings/
 
 # Build artifacts
 /dist
+
+/fixtures

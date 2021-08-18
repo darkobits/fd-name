@@ -23,7 +23,7 @@
     "replacement"
   ],
   "files": [
-    "dist"
+    "src"
   ],
   "main": "src/cjs/index.js",
   "module": "src/mjs/index.js",
