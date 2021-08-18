@@ -1,6 +1,6 @@
 {
   "name": "@darkobits/fd-name",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "WTFPL",
   "description": "ESM replacements for __dirname and __filename.",
   "author": "darkobits",
