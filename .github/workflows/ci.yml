@@ -1,4 +1,4 @@
-name: CI/CD
+name: ci
 on:
   - push
   - pull_request
@@ -31,10 +31,10 @@ jobs:
       - name: Install Dependencies
         run: |
           npm install --global npm@7
-          npm ci --ignore-scripts
+          npm ci
 
-      - name: Build Project
-        run: npx nr build
+      - name: Lint
+        run: npx nr lint
 
       - name: Run Unit Tests
         run: npx nr test.passWithNoTests

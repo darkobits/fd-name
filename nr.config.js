@@ -1,8 +1,8 @@
-/**
- * Uses the base configuration to configure `nr`.
- *
- * See: https://github.com/darkobits/nr
- */
-module.exports = require('@darkobits/ts').nr(({ createCommand, createScript }) => {
-  // Add your own commands / scripts here.
+module.exports = require('@darkobits/ts').nr(({ createScript }) => {
+  createScript('prepare', {
+    description: 'No-op.',
+    run: [
+      ['lint', 'test']
+    ]
+  });
 });
