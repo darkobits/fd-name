@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/darkobits/fd-name/compare/v0.1.2...v0.1.3) (2021-08-19)
+
+
+### 🏗 Chores
+
+* Pin `callsites` version. ([dcfb9c8](https://github.com/darkobits/fd-name/commit/dcfb9c805fc503bd2022a200d9ccd5620b3a2ff4))
+
 ### [0.1.2](https://github.com/darkobits/fd-name/compare/v0.1.1...v0.1.2) (2021-08-18)
 
 
