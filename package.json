@@ -27,12 +27,6 @@
   ],
   "main": "src/cjs/index.js",
   "module": "src/mjs/index.js",
-  "exports": {
-    ".": {
-      "import": "./src/mjs/index.js",
-      "require": "./src/cjs/index.js"
-    }
-  },
   "scripts": {
     "prepare": "nr prepare",
     "help": "nr --scripts"
