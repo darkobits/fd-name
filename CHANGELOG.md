@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.4](https://github.com/darkobits/fd-name/compare/v0.1.3...v0.1.4) (2022-02-09)
+
+
+### 🏗 Chores
+
+* Remove export map. ([b4bb19a](https://github.com/darkobits/fd-name/commit/b4bb19a76ee763e7e8973d850c8ad6a8e9c9b0aa))
+* Update dependencies. ([a69d897](https://github.com/darkobits/fd-name/commit/a69d8974d6396aa1bedb25e10ef2311f67902ff6))
+
 ### [0.1.3](https://github.com/darkobits/fd-name/compare/v0.1.2...v0.1.3) (2021-08-19)
 
 
