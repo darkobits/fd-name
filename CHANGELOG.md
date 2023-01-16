@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.1.6](https://github.com/darkobits/fd-name/compare/v0.1.5...v0.1.6) (2023-01-16)
+
+
+### 🏗 Chores
+
+* Update ci.yml. ([c0b998f](https://github.com/darkobits/fd-name/commit/c0b998ff4ac261a8a8d02eb4c7b3349e6fd6b0ae))
+* Update package keywords. ([0fd38b7](https://github.com/darkobits/fd-name/commit/0fd38b7a1557ee89cf12127b460f566b5c2e2322))
+
+
+### 📖 Documentation
+
+* Update README. ([986098f](https://github.com/darkobits/fd-name/commit/986098f1e1961027f73e58f5a7d61e644844db9b))
+
 ## [0.1.5](https://github.com/darkobits/fd-name/compare/v0.1.4...v0.1.5) (2023-01-16)
 
 
