@@ -5,10 +5,10 @@ on:
 env:
   FORCE_COLOR: 3
 concurrency:
-  # Cancel concurrent runs for the same ref.
   group: ${{ github.ref }}
-  # Unless we're on master. This way, we can more easily figure out which commit
-  # broke it. Replace with `true` to always cancel in-progress jobs.
+  # Never cancel builds on master. This way, we can more easily figure out
+  # which build/commit broke it. Replace with `true` to always cancel
+  # in-progress jobs.
   cancel-in-progress: ${{ github.ref != 'refs/heads/master' }}
 jobs:
   ci:
@@ -17,18 +17,18 @@ jobs:
     if: github.event.ref_type != 'tag'
     runs-on: ubuntu-latest
     steps:
-      - name: Clone
-        uses: actions/checkout@v2
+      - name: Clone Repository
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - name: Prepare
-        uses: actions/setup-node@v2
+      - name: Setup Node
+        uses: actions/setup-node@v3
         with:
           node-version: 18
           cache: npm
-      - name: Install
-        run: npm clean-install
-      - name: Build
+      - name: Install Dependencies
+        run: npm clean-install --ignore-scripts
+      - name: Build Project
         run: npx nr build
-      - name: Run Unit Tests
+      - name: Run Tests
         run: npx nr test
