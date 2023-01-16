@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.1.7](https://github.com/darkobits/fd-name/compare/v0.1.6...v0.1.7) (2023-01-16)
+
+
+### 🏗 Chores
+
+* Update ci.yml. ([c6d47b8](https://github.com/darkobits/fd-name/commit/c6d47b8c4c995f01c04a4b576eb43421c9ae99bd))
+* Update package scripts configuration. ([adea312](https://github.com/darkobits/fd-name/commit/adea312e383ccdd97b5e36e4d1be4981725d1654))
+
 ## [0.1.6](https://github.com/darkobits/fd-name/compare/v0.1.5...v0.1.6) (2023-01-16)
 
 
